@@ -19,7 +19,7 @@ body,
   position: absolute;
   top: 0px;
   right: 0px;
-  width: 300px;
+  width: 20vw;
   height: 100vh;
   list-style: none;
   display: flex;
@@ -28,8 +28,8 @@ body,
 }
 
 .picker figure {
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   margin: 0 auto;
   cursor: pointer;
   transition: 0.1s ease;
@@ -44,7 +44,7 @@ body,
   object-fit: cover;
 }
 .picker figure:hover {
-  width: 120px;
-  height: 120px;
+  width: 80px;
+  height: 80px;
   transition: 0.1s ease;
 }
